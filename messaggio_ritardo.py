@@ -24,11 +24,6 @@ for i in json_orari:
       print('codice: {}'.format(i['tripID']))
       codice = i['tripID']
 
-for i in json_orari:
-  if  i['departureTimeChar'] == orario:
-    print('codice: {}'.format(i['tripID']))
-    codice = i['tripID']
-
 while True:
   time.sleep(5)
   webpage=str(urllib.request.urlopen(live).read())
