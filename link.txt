@@ -14,3 +14,4 @@ https://m.atv.verona.it/api/realtime/updates/trips/386_1319419
 https://m.atv.verona.it/api/stops/near-to/@45.4901999,11.0199100/?size=20
 https://m.atv.verona.it/api/realtime/updates/routes/21
 https://m.atv.verona.it/api/realtime/updates/routes/21%7C22
+https://m.atv.verona.it/api/statistics/state-transitions
