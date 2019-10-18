@@ -9,7 +9,7 @@ tabellaorari='https://m.atv.verona.it/api/datetime/{}-{}-{}-00-00/routes/{}/d/{}
 live = 'https://m.atv.verona.it/api/realtime/updates/routes/{}'.format(bus)
 x=0
 z=99999999
-secondi=range(0,60)
+secondi=["%.2d" % i for i in range(60)]
 start = time.time()
 periodtime = 1000
 print(live)
