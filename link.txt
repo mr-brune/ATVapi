@@ -1,0 +1,15 @@
+https://m.atv.verona.it/api/routes
+https://m.atv.verona.it/api/agents
+https://m.atv.verona.it/api/points
+https://m.atv.verona.it/api/stops
+https://m.atv.verona.it/api/calendardates
+https://m.atv.verona.it/api/feeds
+https://m.atv.verona.it/api/fares
+https://m.atv.verona.it/api/datetime/2019-10-15-17-00/routes/ids
+
+https://m.atv.verona.it/api/datetime/2019-10-14-05-00/routes/32/routestops?lightweight?true
+https://m.atv.verona.it/api/datetime/2019-10-16-06-00/routes/21/d/1/stops/2018/stoptimes
+https://m.atv.verona.it/api/trips/386_1319419/tripinfo
+https://m.atv.verona.it/api/trips/386_1319419/stoptimes
+https://m.atv.verona.it/api/realtime/updates/trips/386_1319419
+https://m.atv.verona.it/api/stops/near-to/@45.4901999,11.0199100/?size=20
