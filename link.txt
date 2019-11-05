@@ -8,6 +8,7 @@ https://m.atv.verona.it/api/fares
 https://m.atv.verona.it/api/datetime/2019-10-15-17-00/routes/ids
 https://m.atv.verona.it/api/datetime/2019-10-14-05-00/routes/32/routestops?lightweight?true
 https://m.atv.verona.it/api/datetime/2019-10-16-06-00/routes/21/d/1/stops/2018/stoptimes
+https://m.atv.verona.it/api/datetime/2019-10-05-00-00/stops/2000/stoptimes
 https://m.atv.verona.it/api/trips/386_1319419/tripinfo
 https://m.atv.verona.it/api/trips/386_1319419/stoptimes
 https://m.atv.verona.it/api/realtime/updates/trips/386_1319419
