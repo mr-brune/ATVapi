@@ -11,6 +11,7 @@ giorno=date.strftime("%d")
 mese = date.strftime("%m")
 tabellaorari='https://m.atv.verona.it/api/datetime/{}-{}-{}-00-00/routes/{}/d/{}/stops/{}/stoptimes'.format(date.year,mese,giorno,bus,direzione,fermata)
 live = 'https://m.atv.verona.it/api/realtime/updates/routes/{}'.format(bus)
+tabfermate= 'https://m.atv.verona.it/api/stops'
 x=0
 z=99999999
 secondi=["%.2d" % i for i in range(60)]
@@ -20,6 +21,11 @@ print(live)
 print(tabellaorari)
 
 json_orari = json.loads(requests.get(tabellaorari).text)
+json_fermate = json.loads(requests.get(tabfermate).text)
+
+for i in json_fermate:
+  if  i['stopID'] == fermata:
+    print('nome fermata: {}  -  indirizzo {}  -  latitudine {}  -  longitudine {}'.format(i['stopName'],i['address'],i['lat'],i['lng']))
 
 for i in json_orari:
   for count in secondi:
